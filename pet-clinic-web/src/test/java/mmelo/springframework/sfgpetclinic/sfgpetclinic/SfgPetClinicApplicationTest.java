@@ -1,4 +1,4 @@
-package mmelo.springframework.sfgpetclinic;
+package mmelo.springframework.sfgpetclinic.sfgpetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
