@@ -1,4 +1,4 @@
-package mmelo.springframework.sfgpetclinic.sfgpetclinic.controllers;
+package mmelo.springframework.sfgpetclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class VetController {
 
-    @RequestMapping({"/vets", "/vets/index", "/vets/index.html"})
-    public String listVets(){
+    @RequestMapping({ "/vets", "/vets/index", "/vets/index.html" })
+    public String listVets() {
         return "vets/index";
     }
 }

@@ -1,4 +1,4 @@
-package mmelo.springframework.sfgpetclinic.sfgpetclinic.controllers;
+package mmelo.springframework.sfgpetclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class OwnerController {
 
-    @RequestMapping({"/owners", "/owners/index", "/owners/index.html"})
-    public String listOwners(){
+    @RequestMapping({ "/owners", "/owners/index", "/owners/index.html" })
+    public String listOwners() {
         return "owners/index";
     }
 }

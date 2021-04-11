@@ -1,4 +1,4 @@
-package mmelo.springframework.sfgpetclinic.sfgpetclinic;
+package mmelo.springframework.sfgpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
